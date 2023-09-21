@@ -5,7 +5,7 @@
 int main(int argc, char* argv[])
 {
     FILE* file;
-    char lines[10][100];
+    char line[100];
     printf("ARGC: %d\n", argc);
     printf("filename: %s\n", argv[1]);
     file = fopen(argv[1], "r");
